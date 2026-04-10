@@ -35,7 +35,7 @@ export default function Header({ page, setPage }) {
           🍽 marikumur
         </button>
 
-        {/* Desktop nav */}
+        {/* Desktop Nav */}
         {!isMobile && (
           <nav style={{ display: "flex", gap: 4, alignItems: "center" }}>
             {navItems.map(({ key, label }) => (
