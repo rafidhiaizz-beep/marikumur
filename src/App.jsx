@@ -16,7 +16,7 @@ import StatusPage          from "./pages/StatusPage"
 import AdminLoginPage      from "./pages/AdminLoginPage"
 import AdminPage           from "./pages/AdminPage"
 
-// ── Inner app (needs context) ─────────────────────────────────────────────
+// ── Inner app (needs context) ────────────────────────────────────────────
 function AppInner() {
   const { notification, darkMode } = useApp()
   const isMobile = useIsMobile()
